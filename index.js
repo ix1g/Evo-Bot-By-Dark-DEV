@@ -22,7 +22,7 @@ client.once(Events.ClientReady, async () => {
     console.log(`Logged In As ${client.user.tag}`)
 });
 // All right's reserved to id5g , https://dark-dev.netlify.app/
-const channel = "CHANNEL_ID";
+const channel = "CHANNEL_ID"; // The image generation channel when you send message for example "A logo for Dark Host" it will response
 // All right's reserved to id5g , https://dark-dev.netlify.app/
 client.on(Events.MessageCreate, async (message) => {
   if (message.author.bot) return;
