@@ -1,0 +1,16 @@
+{
+  "name": "image-generator",
+  "version": "1.0.0",
+  "description": "This image generation bot for free by Dark Dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "id5g",
+  "dependencies": {
+    "@flareai/api": "^1.0.8",
+    "discord.js": "^14.18.0",
+    "st.db": "^6.0.1"
+  }
+}
